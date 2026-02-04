@@ -6,8 +6,8 @@
 body {
     background-color: rgba(134, 189, 252);
     margin-top: 30px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 35vw;
+    margin-right: 35vw;
     color: white;
 }
 body img {
@@ -135,8 +135,73 @@ section {
 #proximos-dias {
     display: flex;
     justify-content: space-between;
+    margin: 5px 15px 5px 15px;
+}
+#h5-proximo {
+    padding-left: 15px;
 }
 .dia {
     background-color: rgb(180, 214, 253);
-    padding: 20px 50px;
+    padding: 20px 65px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dia p, img {
+    margin: 5px 0;
+}
+.dia p {
+    font-size: 16px;
+}
+
+@media (max-width: 1662px) {
+    body { 
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+}
+@media (max-width: 1450px) {
+    body { 
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+@media (max-width: 1340px) {
+    body { 
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+@media (max-width: 1200px) {
+    body { 
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+}
+@media (max-width: 1000px) {
+    body { 
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 640px) {
+    body { 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 555px) {
+    body { 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .dia {
+        padding: 20px 45px;
+    }
+}
+@media (max-width: 440px) {
+    .dia {
+        padding: 20px 30px;
+    }
 }
