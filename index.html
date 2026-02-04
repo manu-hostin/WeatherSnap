@@ -10,43 +10,76 @@
     <header>
         <h1>WeatherSnap ☀️</h1>
         <div id="topicos">
-            <p>🏘️ Início</p>
+            <div id="inicio">
+                <img src="src/casa-icone.webp" alt="Ícone de casa">
+                <p>Início</p>
+            </div>
             <div id="comparacao">
-                <p>📊 Comparar</p>
-                <p>3</p>
+                <img src="src/barras.png" alt="Ícone de barras">
+                <p>Comparar</p>
+                <p id="numero-comparacoes">3</p>
             </div>
         </div>
     </header>
 
     <main>
         <div id="busca">
-            <p>🔎 Buscar cidade...</p>
-            <button>Buscar</button>
+            <div id="area-busca">
+                <img src="src/lupa.png" alt="">
+                <p>Buscar cidade...</p>
+            </div>
+            <button id="botao-buscar">Buscar</button>
         </div>
-        <div id="cidade">
-            <h3>Cidade, Estado</h3>
-            <p>Dia da semana, dia</p>
-            <img src="src/barras" alt="Gráfico de barras">
-            <img src="src/compartilhar.png" alt="Ícone de compartilhamento">
-        </div>
-        <div id="temperatura">
-            <img src="src/nuvem.png" alt="Emoji de nuvem">
-            <h2>temperatura</h2>
-        </div>
-        <div id="tempo">
-            <h5>Tempo</h5>
-            <div id="dados-tempo">
-                <div id="vento">
-                    <img src="" alt="">
-                    <p></p>
+        <section>
+            <div id="cidade">
+                <div id="info-cidade">
+                    <h3>Cidade, Estado</h3>
+                    <p>Dia da semana, dia</p>
                 </div>
-                <div id="chuva">
-                    <img src="" alt="">
-                    <p></p>
+                <div id="imagens-sessao-cidade">
+                    <img src="src/barras.png" alt="Gráfico de barras">
+                    <img src="src/icone-compartilhar.png" alt="Ícone de compartilhamento">
+                </div> 
+            </div>
+            <div id="temperatura">
+                <img src="src/nublado.png" alt="Emoji de nuvem">
+                <h2>24°C</h2>
+            </div>
+            <div id="tempo">
+                <h5>Nublado</h5>
+                <div id="dados-tempo">
+                    <div class="dados-inferiores">
+                        <img src="src/vento.png" alt="Ícone de vento">
+                        <p>15.3 km/h</p>
+                    </div>
+                    <div class="dados-inferiores">
+                        <img src="src/umidade.png" alt="Ícone de umidade">
+                        <p>63%</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
+            <div id="sugestao-inteligente">
+                <p>Que tal aproveitar para um museu ou cinema hoje?</p>
+            </div>
+            <h5>Próximos dias</h5>
+            <div id="proximos-dias">
+                <div class="dia">
+                    <p>qui.</p>
+                    <img src="src/chuva.png" alt="Ícone">
+                    <p id="proxima-temp">26°C</p>
+                </div>
+                <div class="dia">
+                    <p>sex.</p>
+                    <img src="src/trovoada.png" alt="Ícone">
+                    <p id="proxima-temp">28°C</p>
+                </div>
+                <div class="dia">
+                    <p>sáb.</p>
+                    <img src="src/trovoada.png" alt="Ícone">
+                    <p id="proxima-temp">26°C</p>
+                </div>
+            </div>
+        </section>
 
     </main>
 </body>

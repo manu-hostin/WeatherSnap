@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgba(134, 189, 252);
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: white;
+}
+body img {
+    width: 20px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+#topicos {
+    margin-top: 30px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#inicio {
+    background-color: rgba(147, 195, 252);
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#comparacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#numero-comparacoes {
+    color: black;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+#busca {
+    background-color: rgba(147, 195, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+#area-busca {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#botao-buscar {
+    color: white;
+    border: 0;
+    font-size: 16px;
+    background-color: rgb(180, 214, 253);
+    padding: 15px;
+}
+
+section {
+    background-color: rgba(147, 195, 252);
+    border-radius: 15px;
+}
+#cidade {
+   padding: 10px 15px 30px 15px;
+   display: flex;
+   justify-content: space-between;
+}
+#cidade h3 {
+    font-size: 24px;
+}
+#imagens-sessao-cidade img {
+    background-color: rgb(180, 214, 253);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+#temperatura {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#temperatura img {
+    width: 70px;
+    height: 70px;
+}
+
+#tempo h5 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 5px 0;
+    font-size:20px;
+}
+#dados-tempo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.dados-inferiores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sugestao-inteligente {
+    background-color: rgb(180, 214, 253);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px 0 15px 0;
+    border-radius: 5px;
+}
+
+#proximos-dias {
+    display: flex;
+    justify-content: space-between;
+}
+.dia {
+    background-color: rgb(180, 214, 253);
+    padding: 20px 50px;
+}
