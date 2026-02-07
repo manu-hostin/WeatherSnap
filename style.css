@@ -57,6 +57,18 @@ header h1 {
     padding-left: 15px;
     margin-top: 30px;
 }
+#buscar {
+    border: 0;
+    background-color: rgba(147, 195, 252);
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+input::placeholder {
+    color: white;
+    background-color: rgba(147, 195, 252);
+  }
+  
 #area-busca {
     display: flex;
     align-items: center;
@@ -75,12 +87,12 @@ section {
     border-radius: 15px;
 }
 #cidade {
-   padding: 10px 15px 30px 15px;
+   padding: 15px 15px 30px 15px;
    display: flex;
    justify-content: space-between;
 }
 #cidade h3 {
-    font-size: 24px;
+    font-size: 37px;
 }
 #imagens-sessao-cidade img {
     background-color: rgb(180, 214, 253);
