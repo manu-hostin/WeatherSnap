@@ -217,3 +217,48 @@ section {
         padding: 20px 30px;
     }
 }
+
+/* TEMAS */
+
+.tema-dia {
+    background-color: rgb(180, 214, 253);;
+    color: #000;
+}
+
+.tema-noite {
+    background-color: #2c446d44;
+    color: #fff;
+}
+
+.tema-chuva section,
+.tema-chuva #busca,
+.tema-chuva #inicio,
+.tema-chuva #botao-buscar,
+.tema-chuva #sugestao-inteligente,
+.tema-chuva .dia,
+.tema-chuva #buscar {
+    background-color: #325ac9ab;
+    color: #fff;
+}
+
+.tema-sol section,
+.tema-sol #busca,
+.tema-sol #inicio,
+.tema-sol #botao-buscar,
+.tema-sol #sugestao-inteligente,
+.tema-sol .dia,
+.tema-sol #buscar {
+    background-color: #9fd6ecd7;
+    color: #000;
+}
+
+.tema-nublado section,
+.tema-nublado #busca,
+.tema-nublado #inicio,
+.tema-nublado #botao-buscar,
+.tema-nublado #sugestao-inteligente,
+.tema-nublado .dia,
+.tema-nublado #buscar {
+    background-color: rgba(153, 153, 153, 0.582);
+    color: #fff;
+}
